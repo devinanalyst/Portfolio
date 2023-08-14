@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    
+}
+/*section{
+    display: grid;
+    place-items: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    color: white;
+    gap: 1rem;
+    padding: 
+}*/
+ .div{
+    display: flex;
+    
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    gap: 1rem;
+    text-align: center;
+    color: black;
+    
+
+}
+
+.div1{
+    background-color: #eff6ff;
+
+}
+
+.div2{
+    color: rgb(107, 192, 164);
+    display: flex;    
+    justify-content: center;
+    flex-direction: column;
+    height: 25vh;
+    gap: 1rem;
+    text-align: center;
+    font-size: 60px;
+}
+
+input{
+    border: none;
+    padding: 1rem;
+    margin: 1rem;
+    width: 45rem;
+    border-radius: 0.5rem
+}
+textarea{
+    border: none;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 0.5rem
+}
+
+.btn{
+    display: inline;
+    margin-left: 10rem;
+    border: none;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    color: black; 
+    border-radius: 0.5rem;
+    cursor: pointer;
+    border: none;
+}
+.shadow{
+    border: 1.5px solid rgb(72, 153, 126);
+    box-shadow: 3px 3px rgb(107, 192, 164);
+    transition-duration: .2s;
+}
+
+.btn2{
+    float: left;
+    border: none;
+}
+
+
+.divB2{
+    color: black;
+    display: flex;    
+    justify-content: center;
+    flex-direction: column;
+    height: 75vh;
+    gap: 1rem;
+    text-align: center;
+    background-color:#eff6ff ;
+    font-size:30px ;
+    border: none;
+}
+
+.div3{
+    color: black;
+    background-color: #eff6ff;
+}
+
+.name{
+    color:rgb(107, 192, 164);
+}
+b{
+    color: rgb(107, 192, 164);
+}
+
+h1{
+    font-size: 60px;
+    line-height: 1;
+    text-transform: uppercase;
+    
+}
+.doc{
+    font-size: 30px;
+    
+}
+.span{
+    color: rgb(107, 192, 164);
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.socials{
+    
+    position: absolute;
+    right: 0.5rem;
+    top: 0.5rem;
+    cursor: pointer;
+    font-size: 2rem;
+    color: rgb(107, 192, 164);
+    padding: 0.5rem;
+    transition: all 0.5 ease;
+}
+i{
+    color: rgb(0, 0, 0);
+    margin: 0.5rem;
+    
+}
+
+.socials i:hover{
+    color: rgb(107, 192, 164);
+    
+}
+
+.scroll{
+    font-size: 17px;
+    margin-top: 2rem;
+    color: rgb(97, 97, 97);
+    
+}
+
+.scroll:hover{
+    opacity: 0.5;
+    
+    
+}
+
+.contact{
+    color:rgb(107, 192, 164) ;
+    font-size: 60px;
+}
