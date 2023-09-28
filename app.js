@@ -1,4 +1,5 @@
 let header = document.querySelector('#intro');
+// yo
 let anim = [
     { t: "{ }", ms: 200 },
     { t: "{_}", ms: 200 },
